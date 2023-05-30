@@ -1,3 +1,5 @@
+import nav, { sum,sub } from "../components/navbar.js";
+
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
   let user = JSON.parse(localStorage.getItem("user")) || null;
@@ -17,3 +19,8 @@ document.querySelector("form").addEventListener("submit", function (event) {
     localStorage.setItem("loggedin", false);
   }
 });
+
+document.getElementById("nav").innerHTML=nav()
+
+
+
