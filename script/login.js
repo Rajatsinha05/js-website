@@ -1,4 +1,4 @@
-import nav, { sum,sub } from "../components/navbar.js";
+import nav from "../components/navbar.js";
 
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
