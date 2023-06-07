@@ -1,28 +1,22 @@
-#cart div img {
-    width: 100px !important;
-    height: 100px !important;
-    object-fit: cover;
-
+img{
+    width: 100px;
+    height: 100px;
 }
-.cart_box{
-    align-items: center;
-    width: 250px;
-    margin: 20px;
+
+.cart{
+    padding: 200px;
+  
+}
+
+.plus,.minus{
+    font-size: 20px;
     padding: 20px;
-    border: 1px solid black;
+    background-color: gray;
+    border-radius: 100%;
+    margin-right: 15px;
 }
-.btns_box{
-    margin: 5px;
-    padding: 2px;
-} 
-#parent{
-display: flex;
 
-
-}
-#price {
-    width: 500px;
-    height: 100vh;
-    border: 1px solid black;
+.minus{
+    margin-left: 15px;
 }
 
