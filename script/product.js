@@ -33,15 +33,13 @@ const display = (data) => {
       cartitem.map((item, idx) => {
         if (item.id == ele.id) {
           existing = true;
-
           cartitem[idx].qty += 1;
         }
       });
-
       if (!existing) {
         cartitem.push({ ...ele, qty: 1 });
-        alert("product has been added")
-      } 
+        alert("product has been added");
+      }
 
       localStorage.setItem("cartitem", JSON.stringify(cartitem));
     });
